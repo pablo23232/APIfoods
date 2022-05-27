@@ -7,6 +7,7 @@ exports.isNotRepeated = (req,res,next) =>{
     return next();
 };
 exports.isNotEmpty = (req,res,next) =>{
+    console.log(req.body.nombre);
     if(req.body.nombre==="" || req.body.nombre===undefined){
        return res.send(400).send("Mala petición");
     }

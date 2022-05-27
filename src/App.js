@@ -8,6 +8,7 @@ var foods = [{id:1,nombre:"Pizza carbonara",ingredientes:["Champiñones","Queso"
 ,{id:2,nombre:"Dürum Feta Mixto",ingredientes:["Pollo","Ternera","Queso feta","Ensalada","Tomate","Salsa de yogurt"],precio:4.50,urlImagen:""},
 {id:3,nombre:"Sopa de pollo",ingredientes:["Pollo","Garbanzos","Huevo duro","Fideos"],precio:3.30,urlImagen:""},
 {id:4,nombre:"Lentejas de la abuela",ingredientes:["Lentejas","Patata","Chorizo"],precio:4.30,urlImagen:""}];
+var orders = [];
 valiTodos=foods;
 app.use(express.json()) // for parsing application/json
 app.use(express.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded
@@ -30,16 +31,18 @@ app.get('/foods/',(req, res) =>{
     res.send(foods);
 })
 
-app.post('/foods/',validator.isNotEmpty,isNotRepeated, (req, res) => {
+app.post('/foods/', (req, res) => {
+    console.log(req.body)
     let idParam = req.body.id;
     let newItem= req.body;
+    console.log(newItem);
     if(!idParam){
-            newItem.id=Math.max.apply(Math, foods.map(function(todo) { return todo.id; }))+1;
+            newItem.id=Math.max.apply(Math, foods.map(function(food) { return food.id; }))+1;
             if(foods[0]==undefined){
                 newItem.id=1;
             }
     } 
-    foods.push(req.body);
+    foods.push(newItem);
     res.status(201).json(newItem);
 })
 
@@ -79,4 +82,32 @@ app.get('/foods/:task',(req,res)=>{
     send(res);
 })
 
+app.get('/orders/',(req, res) =>{
+    res.send(orders);
+})
+
+app.post('/orders/', (req, res) => {
+    let idParam = req.body.id;
+    let newItem= req.body;
+    if(!idParam){
+            newItem.id=Math.max.apply(Math, foods.map(function(todo) { return todo.id; }))+1;
+            if(orders[0]==undefined){
+                newItem.id=1;
+            }
+    } 
+    foods.push(req.body);
+    res.status(201).json(newItem);
+})
+app.delete('/orders/:id', (req, res) => {
+    let todoId = foods.find(data => data.id== req.params.id);
+    let index = foods.findIndex(data => data.id ==req.params.id);
+    if(todoId==undefined || index==undefined){
+        res.status(404);
+        res.send('No se ha podido borrar el dato con el id '+req.params.id).json
+    } 
+    else {
+        foods.splice(index,1);
+        res.send('Se ha borrado con exito el dato con el id '+req.params.id).json()
+    }
+})
 module.exports = app;
