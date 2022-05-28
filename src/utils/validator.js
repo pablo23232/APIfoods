@@ -28,3 +28,14 @@ exports.noTask= (req,res,next) =>{
     } 
     return next();
 }
+
+
+exports.allRequired= (req,res,next) =>{
+
+    if( !req.body.telefono || !req.body.direccion || req.body.pedido){
+        return res.send(400).send("Mala petición");
+    } 
+    return next();
+}
+
+

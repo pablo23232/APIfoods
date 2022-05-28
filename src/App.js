@@ -4,10 +4,10 @@ const { send } = require('express/lib/response');
 const app = express();
 const validator = require('./utils/validator');
 var valiTodos= require('./utils/validator');
-var foods = [{id:1,nombre:"Pizza carbonara",ingredientes:["Champiñones","Queso","Bacon","Nata"],precio:9.90,urlImagen:""}
-,{id:2,nombre:"Dürum Feta Mixto",ingredientes:["Pollo","Ternera","Queso feta","Ensalada","Tomate","Salsa de yogurt"],precio:4.50,urlImagen:""},
-{id:3,nombre:"Sopa de pollo",ingredientes:["Pollo","Garbanzos","Huevo duro","Fideos"],precio:3.30,urlImagen:""},
-{id:4,nombre:"Lentejas de la abuela",ingredientes:["Lentejas","Patata","Chorizo"],precio:4.30,urlImagen:""}];
+var foods = [{id:1,nombre:"Pizza carbonara",ingredientes:["Champiñones","Queso","Bacon","Nata"],precio:9.90,urlImagen:"", categoria:"comida Italiana"}
+,{id:2,nombre:"Dürum Feta Mixto",ingredientes:["Pollo","Ternera","Queso feta","Ensalada","Tomate","Salsa de yogurt"],precio:4.50,urlImagen:"",  categoria:"comida turca"},
+{id:3,nombre:"Sopa de pollo",ingredientes:["Pollo","Garbanzos","Huevo duro","Fideos"],precio:3.30,urlImagen:"",categoria:"primer plato"},
+{id:4,nombre:"Lentejas de la abuela",ingredientes:["Lentejas","Patata","Chorizo"],precio:4.30,urlImagen:"", categoria:"primer plato"}];
 var orders = [];
 valiTodos=foods;
 app.use(express.json()) // for parsing application/json
