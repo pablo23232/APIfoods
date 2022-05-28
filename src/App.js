@@ -46,7 +46,7 @@ app.post('/foods/', (req, res) => {
     res.status(201).json(newItem);
 })
 
-app.put('/foods/:id',validator.noId,isNotRepeated,(req, res) => {
+app.put('/foods/:id',(req, res) => {
     let task = foods.find(data => data.id== req.params.id);
     let index = foods.findIndex(data => data.id ==req.params.id);
     let newItem= req.body;
@@ -75,27 +75,23 @@ app.get('/foods/:id',validator.noId, (req, res) => {
     
 })
 
-app.get('/foods/:task',(req,res)=>{
-    let rep =false;
-    foods.find(data => {if(data.task===req)rep=true});
-    res=rep
-    send(res);
-})
 
 app.get('/orders/',(req, res) =>{
     res.send(orders);
 })
 
 app.post('/orders/', (req, res) => {
+    console.log(req.body)
     let idParam = req.body.id;
     let newItem= req.body;
+    console.log(newItem);
     if(!idParam){
-            newItem.id=Math.max.apply(Math, foods.map(function(todo) { return todo.id; }))+1;
+            newItem.id=Math.max.apply(Math, orders.map(function(order) { return order.id; }))+1;
             if(orders[0]==undefined){
                 newItem.id=1;
             }
     } 
-    foods.push(req.body);
+    orders.push(newItem);
     res.status(201).json(newItem);
 })
 app.delete('/orders/:id', (req, res) => {
