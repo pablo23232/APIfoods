@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "nombre": "Pizza carbonara",
+        "cantidad": 2,
+        "precio": 9.90,
+        "urlImagen": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/2A389A1F-D1D2-4F51-94F5-B04899295D69/Derivates/f1467d9f-ca0c-4175-b621-49bcfa12708d.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Dürum Feta Mixto",
+        "cantidad": 2,
+        "precio": 9.90,
+        "urlImagen": "https://comerrico.es/wp-content/uploads/2019/06/EtnicaD.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Sopa de pollo",
+        "cantidad": 2,
+        "precio": 9.90,
+        "urlImagen": "https://cocina-casera.com/wp-content/uploads/2017/12/Sopa-de-pollo.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Lentejas de la abuela",
+        "cantidad": 2,
+        "precio": 9.90,
+        "urlImagen": "https://www.annarecetasfaciles.com/files/img_4610-815x458.jpg"
+    }
+]

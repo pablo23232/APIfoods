@@ -1,0 +1,204 @@
+[
+    {
+        "id": 1,
+        "nombre": "Pizza carbonara",
+        "ingredientes": [
+            "Champiñones",
+            "Queso",
+            "Bacon",
+            "Nata"
+        ],
+        "precio": 9.90,
+        "urlImagen": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/2A389A1F-D1D2-4F51-94F5-B04899295D69/Derivates/f1467d9f-ca0c-4175-b621-49bcfa12708d.jpg",
+        "categoria": "Vegetales"
+    },
+    {
+        "id": 2,
+        "nombre": "Dürum Feta Mixto",
+        "ingredientes": [
+            "Pollo",
+            "Ternera",
+            "Queso feta",
+            "Ensalada",
+            "Tomate",
+            "Salsa de yogurt"
+        ],
+        "precio": 4.50,
+        "urlImagen": "https://comerrico.es/wp-content/uploads/2019/06/EtnicaD.jpg",
+        "categoria": "Carne"
+    },
+    {
+        "id": 3,
+        "nombre": "Sopa de pollo",
+        "ingredientes": [
+            "Pollo",
+            "Garbanzos",
+            "Huevo duro",
+            "Fideos"
+        ],
+        "precio": 3.30,
+        "urlImagen": "https://cocina-casera.com/wp-content/uploads/2017/12/Sopa-de-pollo.jpg",
+        "categoria": "Carne"
+    },
+    {
+        "id": 4,
+        "nombre": "Lentejas de la abuela",
+        "ingredientes": [
+            "Lentejas",
+            "Patata",
+            "Chorizo"
+        ],
+        "precio": 4.30,
+        "urlImagen": "https://www.annarecetasfaciles.com/files/img_4610-815x458.jpg",
+        "categoria": "Carne"
+    },
+    {
+        "id": 5,
+        "nombre": "Rodaballo al horno",
+        "ingredientes": [
+            "Cebolla",
+            "Pimiento",
+            "Aceite de oliva",
+            "Sal",
+            "Rodaballo",
+            "Ajo",
+            "Perejil"
+        ],
+        "precio": 15.30,
+        "urlImagen": "https://static-sevilla.abc.es/media/gurmesevilla/2011/12/rodaballo-al-horno.jpg",
+        "categoria": "Pescado"
+    },
+    {
+        "id": 6,
+        "nombre": "Calabacines rellenos de gambas y pescado",
+        "ingredientes": [
+            "Calabacin",
+            "Sal",
+            "Ajo",
+            "Cebolla",
+            "Aceite de oliva",
+            "Pimiento",
+            "Merluza",
+            "Gambas",
+            "Tomate",
+            "Vino blanco",
+            "Albahaca"
+        ],
+        "precio": 17.30,
+        "urlImagen": "https://static-sevilla.abc.es/media/gurmesevilla/2013/04/calabacines-rellenos-de-gambas-y-pescado.jpg",
+        "categoria": "Pescado"
+    },
+    {
+        "id": 7,
+        "nombre": "Tajine de pescado",
+        "ingredientes": [
+            "Aceite de oliva",
+            "Cebolla",
+            "Azafrán",
+            "Comino",
+            "Cilantro",
+            "Curcuma",
+            "Tomate",
+            "Bacalao",
+            "Papas",
+            "Limón"
+        ],
+        "precio": 23.30,
+        "urlImagen": "https://canalcocina.es/medias/images/1604CocinaMarroquiTajinPescado2.jpg",
+        "categoria": "Pescado"
+    },
+    {
+        "id": 8,
+        "nombre": "Ensalada de verduras crudas",
+        "ingredientes": [
+            "Pepino",
+            "Lechuga",
+            "Tomate",
+            "Pimiento",
+            "Granos de elote",
+            "Cebolla morada",
+            "Aceite de oliva",
+            "Sal",
+            "Limón"
+        ],
+        "precio": 15.30,
+        "urlImagen": "https://www.cardamomo.news/__export/1641583028022/sites/debate/img/2022/01/07/ensalada_de_verduras_crudas.png_172596871.png",
+        "categoria": "Vegetales"
+    },
+    {
+        "id": 9,
+        "nombre": "Ensaladas contra la anemia",
+        "ingredientes": [
+            "Espinacas",
+            "Berros",
+            "Acedera",
+            "Brecól",
+            "Guisantes",
+            "Rúcula",
+            "Germinados", 
+            "Almendras"
+        ],
+        "precio": 13.30,
+        "urlImagen": "https://www.consumer.es/app/uploads/fly-images/75767/img_ensaladas-contra-anemia-hd-1200x550-cc.jpg",
+        "categoria": "Vegetales"
+    },
+    {
+        "id": 10,
+        "nombre": "Ensalada de garbanzos y espirales de calabacín",
+        "ingredientes": [
+            "Garbanzos",
+            "Lechugas",
+            "Pimientos",
+            "Calabacín",
+            "Tomates cherry",
+            "Cebolla roja",
+            "Aceite de oliva",
+            "Sal",
+            "Limón",
+            "Comino"
+        ],
+        "precio": 13.90,
+        "urlImagen": "https://www.cuerpomente.com/medio/2020/07/27/2_b44ab024_768x855.jpg",
+        "categoria": "Vegetales"
+    },{
+        "id": 11,
+        "nombre": "Alubias arroceras",
+        "ingredientes": [
+            "Ajo",
+            "Cebolla",
+            "Zanohorias",
+            "Patata",
+            "Pimentón dulce",
+            "Alubias",
+            "Agua",
+            "Laurel"
+        ],
+        "precio": 10.90,
+        "urlImagen": "https://i.blogs.es/f782d6/1366_2000-1-/1366_2000.jpg",
+        "categoria": "Legumbres"
+    },
+    {
+        "id": 12,
+        "nombre": "Potaje de garbanzos de la abuela",
+        "ingredientes": [
+            "Garbanzos",
+            "Cebolleta",
+            "Ajo",
+            "Pimentón dulce",
+            "Laurel",
+            "Tomate",
+            "Vinagre",
+            "Caldo de verduras",
+            "Huevos",
+            "Espinacas",
+            "Sal",
+            "Pimienta Negra",
+            "Almendras",
+            "Perejil",
+            "Aceite de oliva"
+        ],
+        "precio": 17.90,
+        "urlImagen": "https://i.blogs.es/ace56f/1366_2000-7-/1366_2000.jpg",
+        "categoria": "Legumbres"
+    }
+]

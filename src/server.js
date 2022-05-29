@@ -1,7 +1,7 @@
 const Express = require('express');
 const validator= require('./utils/validator')
 const app = require('./App.js')
-const port =3000;
+const port = 3001;
 
 const Router = Express.Router();
 
