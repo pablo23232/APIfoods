@@ -8,6 +8,7 @@
             "Bacon",
             "Nata"
         ],
+        "descripcion":"Pizza Carbonara Clasica con bacon y champiñones",
         "precio": 9.90,
         "urlImagen": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/2A389A1F-D1D2-4F51-94F5-B04899295D69/Derivates/f1467d9f-ca0c-4175-b621-49bcfa12708d.jpg",
         "categoria": "Vegetales"
@@ -23,6 +24,7 @@
             "Tomate",
             "Salsa de yogurt"
         ],
+        "descripcion":"Carne de pollo y ternera con ensalada y salsa de yogur enrollado en pan de Dürum.",
         "precio": 4.50,
         "urlImagen": "https://comerrico.es/wp-content/uploads/2019/06/EtnicaD.jpg",
         "categoria": "Carne"
@@ -36,6 +38,7 @@
             "Huevo duro",
             "Fideos"
         ],
+        "descripcion":"Clasica sopa de pollo con fideos.",
         "precio": 3.30,
         "urlImagen": "https://cocina-casera.com/wp-content/uploads/2017/12/Sopa-de-pollo.jpg",
         "categoria": "Carne"
@@ -48,6 +51,7 @@
             "Patata",
             "Chorizo"
         ],
+        "descripcion":"Receta tradicional de lentejas caseras",
         "precio": 4.30,
         "urlImagen": "https://www.annarecetasfaciles.com/files/img_4610-815x458.jpg",
         "categoria": "Carne"
@@ -64,6 +68,7 @@
             "Ajo",
             "Perejil"
         ],
+        "descripcion":"Rodaballo al ajillo hecho al horno.",
         "precio": 15.30,
         "urlImagen": "https://static-sevilla.abc.es/media/gurmesevilla/2011/12/rodaballo-al-horno.jpg",
         "categoria": "Pescado"
@@ -84,6 +89,7 @@
             "Vino blanco",
             "Albahaca"
         ],
+        "descripcion":"Calabacin al horno rellenos de merluza y marisco.",
         "precio": 17.30,
         "urlImagen": "https://static-sevilla.abc.es/media/gurmesevilla/2013/04/calabacines-rellenos-de-gambas-y-pescado.jpg",
         "categoria": "Pescado"
@@ -103,6 +109,7 @@
             "Papas",
             "Limón"
         ],
+        "descripcion":"Tajine de bacalao con papas guisadas.",
         "precio": 23.30,
         "urlImagen": "https://canalcocina.es/medias/images/1604CocinaMarroquiTajinPescado2.jpg",
         "categoria": "Pescado"
@@ -121,6 +128,7 @@
             "Sal",
             "Limón"
         ],
+        "descripcion":"Ensalada de verduras frescas.",
         "precio": 15.30,
         "urlImagen": "https://www.cardamomo.news/__export/1641583028022/sites/debate/img/2022/01/07/ensalada_de_verduras_crudas.png_172596871.png",
         "categoria": "Vegetales"
@@ -138,6 +146,7 @@
             "Germinados", 
             "Almendras"
         ],
+        "descripcion":"Ensalada de berros y verduras de temporada.",
         "precio": 13.30,
         "urlImagen": "https://www.consumer.es/app/uploads/fly-images/75767/img_ensaladas-contra-anemia-hd-1200x550-cc.jpg",
         "categoria": "Vegetales"
@@ -157,6 +166,7 @@
             "Limón",
             "Comino"
         ],
+        "descripcion":"",
         "precio": 13.90,
         "urlImagen": "https://www.cuerpomente.com/medio/2020/07/27/2_b44ab024_768x855.jpg",
         "categoria": "Vegetales"
@@ -173,6 +183,7 @@
             "Agua",
             "Laurel"
         ],
+        "descripcion":"",
         "precio": 10.90,
         "urlImagen": "https://i.blogs.es/f782d6/1366_2000-1-/1366_2000.jpg",
         "categoria": "Legumbres"
@@ -197,6 +208,7 @@
             "Perejil",
             "Aceite de oliva"
         ],
+        "descripcion":"",
         "precio": 17.90,
         "urlImagen": "https://i.blogs.es/ace56f/1366_2000-7-/1366_2000.jpg",
         "categoria": "Legumbres"
