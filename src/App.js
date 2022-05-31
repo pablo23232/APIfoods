@@ -44,7 +44,7 @@ app.post('/foods/', (req, res) => {
     res.status(201).json(newItem);
 })
 
-app.put('/foods/:id',validator.noId,isNotRepeated,(req, res) => {
+app.put('/foods/:id',(req, res) => {
     let task = foods.find(data => data.id== req.params.id);
     let index = foods.findIndex(data => data.id ==req.params.id);
     let newItem= req.body;
@@ -134,6 +134,7 @@ app.put('/cart/:id', (req, res) => {
     res.status(200).json(newItem);
     res.send(task)
 })
+
 
 app.delete('/cart/:id', (req, res) => {
     let todoId = cart.find(data => data.id== req.params.id);
