@@ -11,7 +11,7 @@
         "descripcion":"Pizza Carbonara Clasica con bacon y champiñones",
         "precio": 9.90,
         "urlImagen": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/2A389A1F-D1D2-4F51-94F5-B04899295D69/Derivates/f1467d9f-ca0c-4175-b621-49bcfa12708d.jpg",
-        "categoria": "Vegetales"
+        "categoria": "Carne"
     },
     {
         "id": 2,
@@ -166,7 +166,7 @@
             "Limón",
             "Comino"
         ],
-        "descripcion":"",
+        "descripcion":"Cuando el calor aprieta, tenemos tendencia a dejar de lado los platos de legumbres. Una manera excelente de seguir incorporándolas en nuestra dieta es añadiéndolas a las ensaladas.",
         "precio": 13.90,
         "urlImagen": "https://www.cuerpomente.com/medio/2020/07/27/2_b44ab024_768x855.jpg",
         "categoria": "Vegetales"
@@ -183,7 +183,7 @@
             "Agua",
             "Laurel"
         ],
-        "descripcion":"",
+        "descripcion":"La alubia arrocina o arrocera es una variedad de alubia blanca pequeña y de forma casi redonda, de textura mantecosa y piel suave. Requiere de un tiempo de cocción menor y está especialmente recomendada para ensaladas y platos con marisco. Sin embargo nosotros nos hemos sentido invadidos por la nostalgia de los platos de cuchara tradicionales y las hemos preparado estofadas con verduras.",
         "precio": 10.90,
         "urlImagen": "https://i.blogs.es/f782d6/1366_2000-1-/1366_2000.jpg",
         "categoria": "Legumbres"
@@ -208,7 +208,7 @@
             "Perejil",
             "Aceite de oliva"
         ],
-        "descripcion":"",
+        "descripcion":"Receta tradicional del potaje de garbanzos",
         "precio": 17.90,
         "urlImagen": "https://i.blogs.es/ace56f/1366_2000-7-/1366_2000.jpg",
         "categoria": "Legumbres"
