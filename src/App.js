@@ -88,12 +88,12 @@ app.post('/orders/', (req, res) => {
     let idParam = req.body.id;
     let newItem= req.body;
     if(!idParam){
-            newItem.id=Math.max.apply(Math, foods.map(function(todo) { return todo.id; }))+1;
+            newItem.id=Math.max.apply(Math, orders.map(function(todo) { return todo.id; }))+1;
             if(orders[0]==undefined){
                 newItem.id=1;
             }
     } 
-    foods.push(req.body);
+    orders.push(req.body);
     res.status(201).json(newItem);
 })
 app.delete('/orders/:id', (req, res) => {
